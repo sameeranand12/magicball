@@ -22,7 +22,7 @@ class _BallPageState extends State<BallPage> {
   int ballNumber = 1;
   void changeface(){
     setState(() {
-      ballNumber = Random().nextInt(4) +1;
+      ballNumber = Random().nextInt(5) +1;
       print('I got clicked');
     });
 
