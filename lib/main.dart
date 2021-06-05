@@ -31,7 +31,7 @@ class _BallPageState extends State<BallPage> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black87,
       appBar: AppBar(
         backgroundColor: Colors.black87,
         title: Center(child: Text(' MAGIC BALL')),
